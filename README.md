@@ -1,34 +1,36 @@
 # 📄 AI Resume Analyzer
 
-An AI-powered resume analysis web application built with **Python and Streamlit**.
+An AI-powered resume analysis web application built using Python and Streamlit. The application allows users to upload PDF or DOCX resumes and automatically extract, clean, and analyze their content.
 
-The application allows users to upload **PDF or DOCX resumes** and automatically extracts, cleans, and analyzes their content to identify skills, resume sections, and areas for improvement.
+It identifies important resume sections, detects technical skills, calculates a resume score, and provides recommendations to help improve the resume.
 
-## 🚀 Features
+## 🚀 Live Demo
 
-- 📤 Upload PDF and DOCX resumes
-- 📄 Extract resume text automatically
-- 🧹 Clean and preprocess resume content
-- 🛠️ Detect technical skills
+👉 **[Open AI Resume Analyzer](https://ai-resume-analyzer-kjums7n379vunqk.streamlit.app/)**
+
+## 📌 Project Overview
+
+Finding important information in a resume manually can be time-consuming. This project provides an interactive solution that analyzes resumes automatically.
+
+Users can upload their resume in **PDF or DOCX format**, and the application processes the document to identify skills, sections, and areas that can be improved.
+
+## ✨ Features
+
+- 📄 Upload PDF and DOCX resumes
+- 📝 Extract text from uploaded resumes
+- 🧹 Clean and preprocess extracted text
+- 🛠️ Identify technical skills
 - 📑 Detect important resume sections
-- 📊 Calculate a resume score
+- 📊 Calculate an overall resume score
 - 💡 Generate personalized resume recommendations
-- 🔄 Supports different resume formats and resumes
+- 🔄 Support analysis of different resumes
 - 🖥️ Interactive Streamlit interface
+- 📥 Download processed resume information
 
-## 🛠️ Technologies Used
+## 🔍 Resume Analysis
 
-- Python
-- Streamlit
-- pdfplumber
-- python-docx
-- Regular Expressions (Regex)
+The application analyzes the following sections:
 
-## 📊 Resume Analysis
-
-The application analyzes:
-
-### 📑 Resume Sections
 - Professional Summary
 - Education
 - Experience
@@ -38,39 +40,63 @@ The application analyzes:
 - Certifications
 - Languages
 
-### 🛠️ Skills
-- Programming
+### 🛠️ Skills Detection
+
+Skills are categorized into areas such as:
+
+**Programming**
+- Python
+- C
+
+**AI & Machine Learning**
 - Artificial Intelligence
 - Machine Learning
+- Machine Learning Algorithms
 - Generative AI
+- Scikit-learn
+
+**Data & Analytics**
 - Data Analysis
-- Exploratory Data Analysis (EDA)
-- Development & Cloud Tools
+- Data Analytics
+- Exploratory Data Analysis
+- Pandas
+- Matplotlib
+- Power BI
+- SQL
 
-## 📈 Resume Scoring
+**Tools & Deployment**
+- Git
+- GitHub
 
-The application evaluates the uploaded resume based on:
+The skill detection system can be extended by adding additional skills and categories.
 
-- Number of relevant skills
+## 📊 Resume Scoring
+
+The application calculates a resume score based on factors such as:
+
 - Important resume sections
-- Technical skill coverage
-- Overall resume completeness
+- Technical skills
+- Overall resume content
 
-It then provides a **resume score out of 100** along with recommendations for improvement.
+The score helps users understand the completeness of their resume and identify areas for improvement.
 
 ## 💡 Recommendations
 
-The application can provide suggestions such as:
+Based on the analysis, the application can provide suggestions such as:
 
+- Add a professional summary
 - Add more relevant technical skills
-- Add a GitHub profile
-- Add relevant project repositories
-- Improve the professional summary
-- Add missing resume sections
+- Include project details
+- Add GitHub or portfolio links
+- Improve missing resume sections
 
-## 🚀 Live Demo
+## 🛠️ Technologies Used
 
-👉 **[Open AI Resume Analyzer]**[YOUR_STREAMLIT_APP_URL](/(https://ai-resume-analyzer-kjums7n379vunqk.streamlit.app/)/)
+- **Python**
+- **Streamlit**
+- **pdfplumber**
+- **python-docx**
+- **Regular Expressions (Regex)**
 
 ## 📂 Project Structure
 
@@ -83,7 +109,7 @@ AI-Resume-Analyzer/
 ├── skill_extractor.py
 ├── job_matcher.py
 ├── roadmap_generator.py
+├── test_pdf.py
 ├── requirements.txt
 ├── README.md
-├── .gitignore
-└── test_pdf.py
+└── .gitignore
