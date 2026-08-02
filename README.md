@@ -70,7 +70,7 @@ The application can provide suggestions such as:
 
 ## 🚀 Live Demo
 
-👉 **[Open AI Resume Analyzer](YOUR_STREAMLIT_APP_URL)**
+👉 **[Open AI Resume Analyzer]((https://ai-gym-fitness-assistant-jkmu7s3n97uvqnhkrjtniu.streamlit.app/))**
 
 ## 📂 Project Structure
 
